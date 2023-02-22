@@ -65,6 +65,25 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+
+.imgFlotanteDer /***se agrega esta clase para acomodar del lado izquierdo una imagen**/
+{
+  float: right;
+}
+
+
+div > p /*ponemos este filtro para agregar una sangria del lado izquierdo*/
+{
+  margin-left: 1rem;
+}
+div > h3
+{
+  margin-left: 1rem;
+}
+div > h4
+{
+  margin-left: 1rem;
+}
 body {
   margin: 0;
   font-family:  Roboto,  sans-serif;
@@ -583,6 +602,15 @@ pre code {
   margin-left: auto;
 }
 
+/*************************************agrego una clase para laimagen del div****************************************************************/
+.fondotftft
+{
+  background-image:url('assets/img/TrabajoEquipo_1.png');background-repeat: no-repeat;background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -605,7 +633,7 @@ pre code {
 }
 .row {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   /**
   margin-right: -0.75rem;
   margin-left: -0.75rem;
@@ -10862,6 +10890,4 @@ padding-right: 0rem;
 .pad_text{
   padding-top: 3%;
   padding-bottom: 3%;
-  }
-
 }
